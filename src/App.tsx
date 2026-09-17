@@ -268,7 +268,7 @@ export default function App() {
     setToastMessage("PROCESSING SECURE CHECKOUT...");
 
     try {
-      const response = await fetch("https://anon-backend-e9c4.onrender.com/api/order", {
+      const response = await fetch("https://anon-backend-chi.vercel.app/api/order", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(orderData)
@@ -277,7 +277,7 @@ export default function App() {
       const data = await response.json();
       if (data.success) {
         setToastMessage("ORDER PLACED! CHECK EMAIL INBOX.");
-        setCart(); 
+        setCart([]); // Resetting cart to empty
         setTimeout(() => setIsCartOpen(false), 2000); 
       } else {
         setToastMessage("SERVER ERROR: COULD NOT PLACE ORDER");
