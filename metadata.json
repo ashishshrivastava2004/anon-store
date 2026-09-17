@@ -1,0 +1,6 @@
+{
+  "name": "ANON",
+  "description": "Premium brutalist minimalist luxury streetwear brand.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
