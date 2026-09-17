@@ -19,7 +19,7 @@ import {
    ========================================================================== */
 const CONSTANTS = {
   // Brand Logo URL (Typographic monochrome vector SVG data URI or external URL)
-  LOGO_URL: "/ANON LOGO.svg",
+  LOGO_URL: "/LOGO IMG@4x.png",
   
   // Hero Background Streetwear Model
   HERO_BG_URL: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=2000&q=85",
